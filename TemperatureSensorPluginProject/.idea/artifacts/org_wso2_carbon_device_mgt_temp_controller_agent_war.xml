@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="org.wso2.carbon.device.mgt.temp.controller.agent:war">
+    <output-path>$PROJECT_DIR$/org.wso2.carbon.device.mgt.temp.controller.agent/target</output-path>
+    <root id="archive" name="temp-controller-agent.war">
+      <element id="artifact" artifact-name="org.wso2.carbon.device.mgt.temp.controller.agent:war exploded" />
+    </root>
+  </artifact>
+</component>

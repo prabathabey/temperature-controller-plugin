@@ -1,0 +1,5 @@
+<TemperatureControllerConfig>
+    <DataSource>
+	<JNDILookupName></JNDILookupName>
+    </DataSource>
+<TemperatureControllerConfig>
