@@ -48,15 +48,15 @@ public class TCDAO {
                     "VERSION, SYSTEM, MACHINE, BUILD_NAME, NODE, COMPILER, KERNEL, PLATFORM, BUILD_DATE, " +
                     "PLATFORM_NAME) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?)");
             Map<String, String> properties = this.listToMap(device.getProperties());
-            stmt.setString(1, properties.get("version"));
+            stmt.setString(1, properties.get("Version"));
             stmt.setString(2, properties.get("System"));
             stmt.setString(3, properties.get("Machine"));
-            stmt.setString(4, properties.get("Python Build Name"));
-            stmt.setString(5, properties.get("Node"));
             stmt.setString(6, properties.get("Python Compiler"));
+            stmt.setString(4, properties.get("Python Build Name"));
+            stmt.setString(9, properties.get("Python Build Date"));
+            stmt.setString(5, properties.get("Node"));
             stmt.setString(7, properties.get("Kernel Name"));
-            stmt.setString(8, properties.get("platform"));
-            stmt.setString(9, properties.get("Platform Build Name"));
+            stmt.setString(8, properties.get("Platform"));
             stmt.setString(10, properties.get("Platform Name"));
 
             stmt.execute();
@@ -86,8 +86,8 @@ public class TCDAO {
         Device device = new Device();
         try {
             conn = dataSource.getConnection();
-            stmt = conn.prepareStatement("SELECT ID, VERSION, SYSTEM, MACHINE, BUILD_NAME, NODE, COMPILER, KERNEL, " +
-                    "PLATFORM, BUILD_DATE, PLATFORM_NAME FROM TC_DEVICE WHERE ID = ?");
+            stmt = conn.prepareStatement("SELECT ID, DEVICE_IDENTIFIER, VERSION, SYSTEM, MACHINE, BUILD_NAME, NODE, COMPILER, KERNEL, " +
+                    "PLATFORM, BUILD_DATE, PLATFORM_NAME FROM TC_DEVICE WHERE DEVICE_IDENTIFIER = ?");
             stmt.setString(1, deviceId.getId());
 
             rs = stmt.executeQuery();
@@ -103,6 +103,8 @@ public class TCDAO {
                 properties.add(this.getProperty("platform", rs.getString("PLATFORM")));
                 properties.add(this.getProperty("Python Build Date", rs.getString("BUILD_DATE")));
                 properties.add(this.getProperty("Platform Name", rs.getString("PLATFORM_NAME")));
+                device.setId(rs.getInt("ID"));
+                device.setDeviceIdentifier("DEVICE_IDENTIFIER");
                 device.setProperties(properties);
             }
             return device;

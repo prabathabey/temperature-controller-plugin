@@ -85,18 +85,8 @@
       <file leaf-file-name="EnrollmentService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/org.wso2.carbon.device.mgt.temp.controller.agent/src/main/java/org/wso2/carbon/device/mgt/temp/controller/impl/EnrollmentService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1950">
-              <caret line="25" column="60" selection-start-line="25" selection-start-column="60" selection-end-line="25" selection-end-column="60" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OperationManagementService.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/org.wso2.carbon.device.mgt.temp.controller.agent/src/main/java/org/wso2/carbon/device/mgt/temp/controller/impl/OperationManagementService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7317744" vertical-offset="8" max-vertical-offset="1110">
-              <caret line="52" column="26" selection-start-line="52" selection-start-column="26" selection-end-line="52" selection-end-column="26" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="278" max-vertical-offset="1950">
+              <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -104,11 +94,43 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="OperationManagementService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/org.wso2.carbon.device.mgt.temp.controller.agent/src/main/java/org/wso2/carbon/device/mgt/temp/controller/impl/OperationManagementService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="383" max-vertical-offset="1110">
+              <caret line="48" column="39" selection-start-line="48" selection-start-column="39" selection-end-line="48" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tc-config.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/conf/tc-config.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
+              <caret line="5" column="29" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TCServiceComponent.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/org.wso2.carbon.device.mgt.temp.controller.impl/src/main/java/org/wso2/carbon/device/mgt/temp/controller/impl/internal/TCServiceComponent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="263" max-vertical-offset="1605">
+              <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="AgentUtil.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/org.wso2.carbon.device.mgt.temp.controller.agent/src/main/java/org/wso2/carbon/device/mgt/temp/controller/impl/util/AgentUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1643" max-vertical-offset="2370">
-              <caret line="150" column="5" selection-start-line="150" selection-start-column="5" selection-end-line="150" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="418" max-vertical-offset="2370">
+              <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
               <folding>
                 <element signature="e#0#6180#0" expanded="true" />
                 <element signature="imports" expanded="true" />
@@ -119,12 +141,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TCUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/org.wso2.carbon.device.mgt.temp.controller.impl/src/main/java/org/wso2/carbon/device/mgt/temp/controller/impl/TCUtil.java">
+      <file leaf-file-name="TCDAO.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/org.wso2.carbon.device.mgt.temp.controller.impl/src/main/java/org/wso2/carbon/device/mgt/temp/controller/impl/dao/TCDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645">
-              <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.82435596" vertical-offset="773" max-vertical-offset="1890">
+              <caret line="105" column="55" selection-start-line="105" selection-start-column="46" selection-end-line="105" selection-end-column="46" />
+              <folding>
+                <marker date="1432901112000" expanded="true" signature="1505:1712" placeholder="INSERT INTO ..." />
+                <marker date="1432901112000" expanded="true" signature="3290:3485" placeholder="SELECT ID, D..TC_DEVICE..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="h2.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sql/h2.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.2" vertical-offset="0" max-vertical-offset="300">
+              <caret line="14" column="21" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TCDeviceManagerImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/org.wso2.carbon.device.mgt.temp.controller.impl/src/main/java/org/wso2/carbon/device/mgt/temp/controller/impl/TCDeviceManagerImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="758" max-vertical-offset="1470">
+              <caret line="51" column="26" selection-start-line="51" selection-start-column="26" selection-end-line="51" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -139,44 +186,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DeviceIDHolder.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/org.wso2.carbon.device.mgt.temp.controller.agent/src/main/java/org/wso2/carbon/device/mgt/temp/controller/impl/util/DeviceIDHolder.java">
+      <file leaf-file-name="cxf-servlet.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/org.wso2.carbon.device.mgt.temp.controller.agent/src/main/webapp/WEB-INF/cxf-servlet.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
-              <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660">
+              <caret line="35" column="32" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Message.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/org.wso2.carbon.device.mgt.temp.controller.agent/src/main/java/org/wso2/carbon/device/mgt/temp/controller/impl/util/Message.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
-              <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Buzzer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/org.wso2.carbon.device.mgt.temp.controller.agent/src/main/java/org/wso2/carbon/device/mgt/temp/controller/impl/beans/Buzzer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
-              <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BuzzerBeanWrapper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/org.wso2.carbon.device.mgt.temp.controller.agent/src/main/java/org/wso2/carbon/device/mgt/temp/controller/impl/beans/wrapper/BuzzerBeanWrapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
-              <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -203,6 +218,8 @@
         <option value="$PROJECT_DIR$/org.wso2.carbon.device.mgt.temp.controller.agent/src/main/java/org/wso2/carbon/device/mgt/temp/controller/impl/exception/TCOperationException.java" />
         <option value="$PROJECT_DIR$/org.wso2.carbon.device.mgt.temp.controller.agent/src/main/java/org/wso2/carbon/device/mgt/temp/controller/impl/OperationManagementService.java" />
         <option value="$PROJECT_DIR$/conf/tc-config.xml" />
+        <option value="$PROJECT_DIR$/org.wso2.carbon.device.mgt.temp.controller.impl/src/main/java/org/wso2/carbon/device/mgt/temp/controller/impl/dao/TCDAO.java" />
+        <option value="$PROJECT_DIR$/sql/h2.sql" />
       </list>
     </option>
   </component>
@@ -333,6 +350,74 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="org.wso2.carbon.device.mgt.temp.controller.impl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TemperatureSensorPluginProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TemperatureSensorPluginProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="org.wso2.carbon.device.mgt.temp.controller.impl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TemperatureSensorPluginProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TemperatureSensorPluginProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="org.wso2.carbon.device.mgt.temp.controller.agent" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -356,6 +441,40 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TemperatureSensorPluginProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TemperatureSensorPluginProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="org.wso2.carbon.device.mgt.temp.controller.agent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -853,12 +972,12 @@
       <created>1432718115966</created>
       <option name="number" value="Default" />
       <updated>1432718115966</updated>
-      <workItem from="1432822864908" duration="4492000" />
+      <workItem from="1432822864908" duration="9136000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4492000" />
+    <option name="totallyTimeSpent" value="9136000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
@@ -873,7 +992,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.397351" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.397351" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
@@ -915,19 +1034,19 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/org.wso2.carbon.device.mgt.temp.controller.impl/src/main/java/org/wso2/carbon/device/mgt/temp/controller/impl/internal/TCServiceComponent.java</url>
-          <line>58</line>
+          <url>file://$PROJECT_DIR$/org.wso2.carbon.device.mgt.temp.controller.agent/src/main/java/org/wso2/carbon/device/mgt/temp/controller/impl/util/AgentUtil.java</url>
+          <line>50</line>
           <properties />
-          <option name="timeStamp" value="3" />
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/org.wso2.carbon.device.mgt.temp.controller.impl/src/main/java/org/wso2/carbon/device/mgt/temp/controller/impl/TCDeviceManagerImpl.java</url>
-          <line>51</line>
+          <url>file://$PROJECT_DIR$/org.wso2.carbon.device.mgt.temp.controller.agent/src/main/java/org/wso2/carbon/device/mgt/temp/controller/impl/util/AgentUtil.java</url>
+          <line>49</line>
           <properties />
-          <option name="timeStamp" value="4" />
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="5" />
+      <option name="time" value="22" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -940,7 +1059,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="375" max-vertical-offset="1920">
           <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -975,9 +1096,9 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="540">
           <caret line="36" column="11" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1461#1462#0" expanded="true" />
-            <element signature="e#1516#1517#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1461#1462#0" expanded="false" />
+            <element signature="e#1516#1517#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -987,7 +1108,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="660" max-vertical-offset="2025">
           <caret line="63" column="33" selection-start-line="63" selection-start-column="33" selection-end-line="63" selection-end-column="33" />
           <folding>
-            <element signature="e#0#5844#0" expanded="false" />
+            <element signature="e#0#5988#0" expanded="false" />
             <element signature="e#1216#1217#0" expanded="false" />
             <element signature="e#1260#1261#0" expanded="false" />
           </folding>
@@ -1084,14 +1205,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/org.wso2.carbon.device.mgt.temp.controller.agent/src/main/webapp/WEB-INF/cxf-servlet.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.6" vertical-offset="0" max-vertical-offset="660">
-          <caret line="26" column="61" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/org.wso2.carbon.device.mgt.temp.controller.impl/src/main/java/org/wso2/carbon/device/mgt/temp/controller/impl/internal/TCDataHolder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.8" vertical-offset="0" max-vertical-offset="300">
@@ -1100,33 +1213,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/org.wso2.carbon.device.mgt.temp.controller.impl/src/main/java/org/wso2/carbon/device/mgt/temp/controller/impl/internal/TCServiceComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="608" max-vertical-offset="1605">
-          <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/org.wso2.carbon.device.mgt.temp.controller.impl/src/main/java/org/wso2/carbon/device/mgt/temp/controller/impl/dao/TCDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="293" max-vertical-offset="1860">
-          <caret line="64" column="54" selection-start-line="64" selection-start-column="19" selection-end-line="64" selection-end-column="19" />
-          <folding>
-            <marker date="1432822207000" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1432822207000" expanded="true" signature="-1:-1" placeholder="SELECT ID, V..TC_DEVICE..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/org.wso2.carbon.device.mgt.temp.controller.impl/src/main/java/org/wso2/carbon/device/mgt/temp/controller/impl/TCSchemaInitializer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
           <caret line="33" column="97" selection-start-line="33" selection-start-column="97" selection-end-line="33" selection-end-column="97" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1461#1462#0" expanded="true" />
-            <element signature="e#1516#1517#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1461#1462#0" expanded="false" />
+            <element signature="e#1516#1517#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1155,21 +1249,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/org.wso2.carbon.device.mgt.temp.controller.agent/src/main/java/org/wso2/carbon/device/mgt/temp/controller/impl/EnrollmentService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1935">
-          <caret line="25" column="60" selection-start-line="25" selection-start-column="60" selection-end-line="25" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/org.wso2.carbon.device.mgt.temp.controller.agent/src/main/java/org/wso2/carbon/device/mgt/temp/controller/impl/beans/Operation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.70151305" vertical-offset="105" max-vertical-offset="840">
           <caret line="41" column="62" selection-start-line="41" selection-start-column="42" selection-end-line="41" selection-end-column="42" />
           <folding>
-            <element signature="e#0#1832#0" expanded="true" />
-            <element signature="imports" expanded="true" />
+            <element signature="e#0#1832#0" expanded="false" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1208,14 +1294,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/org.wso2.carbon.device.mgt.temp.controller.agent/src/main/java/org/wso2/carbon/device/mgt/temp/controller/impl/exception/BadRequestException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
-          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/wso2/carbon/devicemgt/org.wso2.carbon.device.mgt.common/0.9.2-SNAPSHOT/org.wso2.carbon.device.mgt.common-0.9.2-20150528.164214-233.jar!/org/wso2/carbon/device/mgt/common/DeviceManagementConstants.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.43732193" vertical-offset="218" max-vertical-offset="945">
@@ -1235,34 +1313,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/org.wso2.carbon.device.mgt.temp.controller.impl/src/main/java/org/wso2/carbon/device/mgt/temp/controller/impl/TCDeviceManagerImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37138927" vertical-offset="0" max-vertical-offset="1470">
-          <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="77" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/org.wso2.carbon.device.mgt.temp.controller.impl/src/main/java/org/wso2/carbon/device/mgt/temp/controller/impl/TCUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645">
           <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/org.wso2.carbon.device.mgt.temp.controller.agent/src/main/java/org/wso2/carbon/device/mgt/temp/controller/impl/util/AgentUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1643" max-vertical-offset="2370">
-          <caret line="150" column="5" selection-start-line="150" selection-start-column="5" selection-end-line="150" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#6180#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-            <element signature="e#3460#3468#0" expanded="true" />
-            <element signature="e#3530#3548#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1276,18 +1331,94 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/conf/tc-config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10316369" vertical-offset="0" max-vertical-offset="727">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
           <caret line="5" column="29" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/org.wso2.carbon.device.mgt.temp.controller.impl/src/main/java/org/wso2/carbon/device/mgt/temp/controller/impl/internal/TCServiceComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="263" max-vertical-offset="1605">
+          <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/org.wso2.carbon.device.mgt.temp.controller.agent/src/main/java/org/wso2/carbon/device/mgt/temp/controller/impl/exception/BadRequestException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
+          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/org.wso2.carbon.device.mgt.temp.controller.agent/src/main/java/org/wso2/carbon/device/mgt/temp/controller/impl/OperationManagementService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7317744" vertical-offset="8" max-vertical-offset="1110">
-          <caret line="52" column="26" selection-start-line="52" selection-start-column="26" selection-end-line="52" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="128" max-vertical-offset="1110">
+          <caret line="48" column="39" selection-start-line="48" selection-start-column="39" selection-end-line="48" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/org.wso2.carbon.device.mgt.temp.controller.agent/src/main/webapp/WEB-INF/cxf-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660">
+          <caret line="35" column="32" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/org.wso2.carbon.device.mgt.temp.controller.agent/src/main/java/org/wso2/carbon/device/mgt/temp/controller/impl/util/AgentUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="418" max-vertical-offset="2370">
+          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#6180#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#3460#3468#0" expanded="true" />
+            <element signature="e#3530#3548#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/org.wso2.carbon.device.mgt.temp.controller.agent/src/main/java/org/wso2/carbon/device/mgt/temp/controller/impl/EnrollmentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="278" max-vertical-offset="1950">
+          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/org.wso2.carbon.device.mgt.temp.controller.impl/src/main/java/org/wso2/carbon/device/mgt/temp/controller/impl/TCDeviceManagerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="188" max-vertical-offset="1470">
+          <caret line="51" column="26" selection-start-line="51" selection-start-column="26" selection-end-line="51" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql/h2.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.2" vertical-offset="0" max-vertical-offset="300">
+          <caret line="14" column="21" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/org.wso2.carbon.device.mgt.temp.controller.impl/src/main/java/org/wso2/carbon/device/mgt/temp/controller/impl/dao/TCDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.82435596" vertical-offset="773" max-vertical-offset="1890">
+          <caret line="105" column="55" selection-start-line="105" selection-start-column="46" selection-end-line="105" selection-end-column="46" />
+          <folding>
+            <marker date="1432901112000" expanded="true" signature="1505:1712" placeholder="INSERT INTO ..." />
+            <marker date="1432901112000" expanded="true" signature="3290:3485" placeholder="SELECT ID, D..TC_DEVICE..." />
           </folding>
         </state>
       </provider>
