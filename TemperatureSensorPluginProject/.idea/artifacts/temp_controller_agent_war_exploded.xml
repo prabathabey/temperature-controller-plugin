@@ -2,7 +2,6 @@
   <artifact type="exploded-war" name="temp-controller-agent:war exploded">
     <output-path>$PROJECT_DIR$/org.wso2.carbon.device.mgt.temp.controller.agent/target/temp-controller-agent-1.0-SNAPSHOT</output-path>
     <root id="root">
-      <element id="javaee-facet-resources" facet="temp-controller-agent/web/Web" />
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
           <element id="module-output" name="temp-controller-agent" />
@@ -13,6 +12,10 @@
           <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-mapper-asl:1.9.0" />
         </element>
       </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/org.wso2.carbon.device.mgt.temp.controller.agent/target/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="temp-controller-agent/web/Web" />
     </root>
   </artifact>
 </component>

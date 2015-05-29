@@ -3,9 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/TemperatureSensorPluginProject.iml" filepath="$PROJECT_DIR$/TemperatureSensorPluginProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TemperatureSensorPluginProject.iml" filepath="$PROJECT_DIR$/TemperatureSensorPluginProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/org.wso2.carbon.device.mgt.temp.controller.impl/org.wso2.carbon.device.mgt.temp.controller.impl.iml" filepath="$PROJECT_DIR$/org.wso2.carbon.device.mgt.temp.controller.impl/org.wso2.carbon.device.mgt.temp.controller.impl.iml" />
       <module fileurl="file://$PROJECT_DIR$/org.wso2.carbon.device.mgt.temp.controller.impl/org.wso2.carbon.device.mgt.temp.controller.impl.iml" filepath="$PROJECT_DIR$/org.wso2.carbon.device.mgt.temp.controller.impl/org.wso2.carbon.device.mgt.temp.controller.impl.iml" />
       <module fileurl="file://$PROJECT_DIR$/org.wso2.carbon.device.mgt.temp.controller.agent/temp-controller-agent.iml" filepath="$PROJECT_DIR$/org.wso2.carbon.device.mgt.temp.controller.agent/temp-controller-agent.iml" />
     </modules>
   </component>
 </project>
-
