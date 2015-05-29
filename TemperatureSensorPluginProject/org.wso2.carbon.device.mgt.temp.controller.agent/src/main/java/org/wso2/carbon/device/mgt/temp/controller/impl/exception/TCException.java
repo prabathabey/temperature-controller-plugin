@@ -16,7 +16,7 @@
  *   under the License.
  *
  */
-package org.wso2.carbon.device.mgt.temp.controller.impl;
+package org.wso2.carbon.device.mgt.temp.controller.impl.exception;
 
 import org.wso2.carbon.device.mgt.common.DeviceManagementException;
 

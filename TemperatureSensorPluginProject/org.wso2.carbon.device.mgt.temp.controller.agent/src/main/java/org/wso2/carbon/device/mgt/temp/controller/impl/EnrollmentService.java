@@ -23,6 +23,8 @@ import org.apache.commons.logging.LogFactory;
 import org.wso2.carbon.device.mgt.common.DeviceIdentifier;
 import org.wso2.carbon.device.mgt.common.DeviceManagementConstants;
 import org.wso2.carbon.device.mgt.common.DeviceManagementException;
+import org.wso2.carbon.device.mgt.temp.controller.impl.exception.TCException;
+import org.wso2.carbon.device.mgt.temp.controller.impl.util.AgentUtil;
 
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
