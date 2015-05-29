@@ -1,5 +1,5 @@
 <TemperatureControllerConfig>
     <DataSource>
-	<JNDILookupName></JNDILookupName>
+	<JNDILookupName>jdbc/TC_DS</JNDILookupName>
     </DataSource>
 </TemperatureControllerConfig>
