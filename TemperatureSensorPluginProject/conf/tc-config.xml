@@ -2,4 +2,4 @@
     <DataSource>
 	<JNDILookupName></JNDILookupName>
     </DataSource>
-<TemperatureControllerConfig>
+</TemperatureControllerConfig>
