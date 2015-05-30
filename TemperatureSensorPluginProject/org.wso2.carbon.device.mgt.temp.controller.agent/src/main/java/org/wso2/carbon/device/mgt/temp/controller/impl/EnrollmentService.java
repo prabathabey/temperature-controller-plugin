@@ -118,12 +118,13 @@ public class EnrollmentService {
     }
 
     @PUT
-    @Path("{id}")
-    public Response claimDevice(@PathParam("id") String id,
-                                     org.wso2.carbon.device.mgt.common.Device device)
+    @Path("claim")
+    public Response claimDevice(@QueryParam("username") String username, DeviceIdentifier deviceIdentifier)
             throws TCException {
         try {
+            Device device = AgentUtil.getDeviceManagementService().getDevice(deviceIdentifier);
             device.setType(DeviceManagementConstants.MobileDeviceTypes.MOBILE_DEVICE_TYPE_ANDROID);
+            device.setOwner(username);
             device.setStatus(Device.Status.ACTIVE);
             boolean result = AgentUtil.getDeviceManagementService().modifyEnrollment(device);
             if (result) {

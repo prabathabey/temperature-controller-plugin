@@ -82,11 +82,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="EnrollmentService.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="EnrollmentService.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/org.wso2.carbon.device.mgt.temp.controller.agent/src/main/java/org/wso2/carbon/device/mgt/temp/controller/impl/EnrollmentService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2280">
-              <caret line="56" column="11" selection-start-line="56" selection-start-column="11" selection-end-line="56" selection-end-column="11" />
+            <state vertical-scroll-proportion="0.10428572" vertical-offset="722" max-vertical-offset="2295">
+              <caret line="70" column="35" selection-start-line="70" selection-start-column="35" selection-end-line="70" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -116,29 +116,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AgentUtil.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AgentUtil.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/org.wso2.carbon.device.mgt.temp.controller.agent/src/main/java/org/wso2/carbon/device/mgt/temp/controller/impl/util/AgentUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33287483" vertical-offset="1543" max-vertical-offset="2370">
-              <caret line="119" column="27" selection-start-line="119" selection-start-column="27" selection-end-line="119" selection-end-column="27" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1543" max-vertical-offset="2370">
+              <caret line="127" column="48" selection-start-line="127" selection-start-column="48" selection-end-line="127" selection-end-column="48" />
               <folding>
                 <element signature="e#0#6180#0" expanded="true" />
                 <element signature="imports" expanded="true" />
                 <element signature="e#3460#3468#0" expanded="true" />
                 <element signature="e#3530#3548#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TCDAO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/org.wso2.carbon.device.mgt.temp.controller.impl/src/main/java/org/wso2/carbon/device/mgt/temp/controller/impl/dao/TCDAO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1905">
-              <caret line="108" column="49" selection-start-line="108" selection-start-column="49" selection-end-line="108" selection-end-column="49" />
-              <folding>
-                <marker date="1432906319000" expanded="true" signature="1505:1734" placeholder="INSERT INTO ..." />
-                <marker date="1432906319000" expanded="true" signature="3374:3569" placeholder="SELECT ID, D..TC_DEVICE..." />
               </folding>
             </state>
           </provider>
@@ -163,7 +150,7 @@
         <entry file="file://$PROJECT_DIR$/org.wso2.carbon.device.mgt.temp.controller.agent/src/main/java/org/wso2/carbon/device/mgt/temp/controller/impl/util/MQTTBrokerConnectionConfig.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="98" max-vertical-offset="825">
-              <caret line="43" column="48" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+              <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -196,8 +183,8 @@
       <file leaf-file-name="cxf-servlet.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/org.wso2.carbon.device.mgt.temp.controller.agent/src/main/webapp/WEB-INF/cxf-servlet.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-19.08" vertical-offset="108" max-vertical-offset="810">
-              <caret line="39" column="53" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="38" />
+            <state vertical-scroll-proportion="-11.28" vertical-offset="108" max-vertical-offset="810">
+              <caret line="26" column="61" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="61" />
               <folding />
             </state>
           </provider>
@@ -233,6 +220,7 @@
         <option value="$PROJECT_DIR$/org.wso2.carbon.device.mgt.temp.controller.agent/src/main/webapp/WEB-INF/cxf-servlet.xml" />
         <option value="$PROJECT_DIR$/org.wso2.carbon.device.mgt.temp.controller.agent/src/main/java/org/wso2/carbon/device/mgt/temp/controller/impl/OperationManagementService.java" />
         <option value="$PROJECT_DIR$/org.wso2.carbon.device.mgt.temp.controller.agent/src/main/java/org/wso2/carbon/device/mgt/temp/controller/impl/util/AgentUtil.java" />
+        <option value="$PROJECT_DIR$/org.wso2.carbon.device.mgt.temp.controller.agent/src/main/java/org/wso2/carbon/device/mgt/temp/controller/impl/EnrollmentService.java" />
       </list>
     </option>
   </component>
@@ -885,16 +873,16 @@
       <created>1432718115966</created>
       <option name="number" value="Default" />
       <updated>1432718115966</updated>
-      <workItem from="1432822864908" duration="16274000" />
+      <workItem from="1432822864908" duration="21464000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16274000" />
+    <option name="totallyTimeSpent" value="21464000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -945,7 +933,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="28" />
+      <option name="time" value="35" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1211,8 +1199,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1905">
           <caret line="108" column="49" selection-start-line="108" selection-start-column="49" selection-end-line="108" selection-end-column="49" />
           <folding>
-            <marker date="1432906319000" expanded="true" signature="1505:1734" placeholder="INSERT INTO ..." />
-            <marker date="1432906319000" expanded="true" signature="3374:3569" placeholder="SELECT ID, D..TC_DEVICE..." />
+            <marker date="1432906319000" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1432906319000" expanded="true" signature="-1:-1" placeholder="SELECT ID, D..TC_DEVICE..." />
           </folding>
         </state>
       </provider>
@@ -1221,14 +1209,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.12820514" vertical-offset="0" max-vertical-offset="702">
           <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sql/h2.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31019202" vertical-offset="0" max-vertical-offset="677">
-          <caret line="14" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1265,28 +1245,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/org.wso2.carbon.device.mgt.temp.controller.agent/src/main/java/org/wso2/carbon/device/mgt/temp/controller/impl/EnrollmentService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="188" max-vertical-offset="2280">
-          <caret line="56" column="11" selection-start-line="56" selection-start-column="11" selection-end-line="56" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/org.wso2.carbon.device.mgt.temp.controller.agent/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645">
           <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/org.wso2.carbon.device.mgt.temp.controller.agent/src/main/webapp/WEB-INF/cxf-servlet.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-19.08" vertical-offset="108" max-vertical-offset="810">
-          <caret line="39" column="53" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="38" />
           <folding />
         </state>
       </provider>
@@ -1304,20 +1266,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/org.wso2.carbon.device.mgt.temp.controller.impl/src/main/java/org/wso2/carbon/device/mgt/temp/controller/impl/TCDeviceManagerImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1530">
-          <caret line="82" column="13" selection-start-line="82" selection-start-column="13" selection-end-line="82" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/org.wso2.carbon.device.mgt.temp.controller.agent/src/main/java/org/wso2/carbon/device/mgt/temp/controller/impl/util/MQTTBrokerConnectionConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="98" max-vertical-offset="825">
-          <caret line="43" column="48" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1342,15 +1294,59 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sql/h2.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.088626295" vertical-offset="0" max-vertical-offset="677">
+          <caret line="4" column="50" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/org.wso2.carbon.device.mgt.temp.controller.agent/src/main/webapp/WEB-INF/cxf-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.28" vertical-offset="108" max-vertical-offset="810">
+          <caret line="26" column="61" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/org.wso2.carbon.device.mgt.temp.controller.impl/src/main/java/org/wso2/carbon/device/mgt/temp/controller/impl/TCDeviceManagerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1530">
+          <caret line="82" column="13" selection-start-line="82" selection-start-column="13" selection-end-line="82" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/org.wso2.carbon.device.mgt.temp.controller.agent/src/main/java/org/wso2/carbon/device/mgt/temp/controller/impl/util/AgentUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33287483" vertical-offset="1543" max-vertical-offset="2370">
-          <caret line="119" column="27" selection-start-line="119" selection-start-column="27" selection-end-line="119" selection-end-column="27" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1543" max-vertical-offset="2370">
+          <caret line="127" column="48" selection-start-line="127" selection-start-column="48" selection-end-line="127" selection-end-column="48" />
           <folding>
             <element signature="e#0#6180#0" expanded="true" />
             <element signature="imports" expanded="true" />
             <element signature="e#3460#3468#0" expanded="true" />
             <element signature="e#3530#3548#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/wso2/carbon/devicemgt/org.wso2.carbon.device.mgt.common/0.9.2-SNAPSHOT/org.wso2.carbon.device.mgt.common-0.9.2-SNAPSHOT.jar!/org/wso2/carbon/device/mgt/common/DeviceIdentifier.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3846154" vertical-offset="0" max-vertical-offset="702">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/org.wso2.carbon.device.mgt.temp.controller.agent/src/main/java/org/wso2/carbon/device/mgt/temp/controller/impl/EnrollmentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.10428572" vertical-offset="722" max-vertical-offset="2295">
+          <caret line="70" column="35" selection-start-line="70" selection-start-column="35" selection-end-line="70" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
