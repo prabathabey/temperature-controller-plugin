@@ -46,7 +46,7 @@ public class TCDAO {
             conn = dataSource.getConnection();
             stmt = conn.prepareStatement("INSERT INTO TC_DEVICE(" +
                     "VERSION, SYSTEM, MACHINE, BUILD_NAME, NODE, COMPILER, KERNEL, PLATFORM, BUILD_DATE, " +
-                    "PLATFORM_NAME) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?)");
+                    "PLATFORM_NAME, DEVICE_IDENTIFIER) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)");
             Map<String, String> properties = this.listToMap(device.getProperties());
             stmt.setString(1, properties.get("Version"));
             stmt.setString(2, properties.get("System"));
@@ -58,6 +58,7 @@ public class TCDAO {
             stmt.setString(7, properties.get("Kernel Name"));
             stmt.setString(8, properties.get("Platform"));
             stmt.setString(10, properties.get("Platform Name"));
+            stmt.setString(11, device.getDeviceIdentifier());
 
             stmt.execute();
         } catch (SQLException e) {

@@ -105,6 +105,10 @@ public class TCDeviceManagerImpl implements DeviceMgtService {
         return false;  
     }
 
+    @Override public boolean isClaimable(DeviceIdentifier deviceIdentifier) throws DeviceManagementException {
+        return true;
+    }
+
     @Override
     public void installApplication(Operation operation,
                                    List<DeviceIdentifier> deviceIdentifiers) throws AppManagerConnectorException {

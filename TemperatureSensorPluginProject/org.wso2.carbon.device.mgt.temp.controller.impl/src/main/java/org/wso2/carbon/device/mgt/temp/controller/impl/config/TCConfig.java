@@ -36,6 +36,17 @@ public class TCConfig {
     private static final String TC_CONFIG_PATH =
             CarbonUtils.getEtcCarbonConfigDirPath() + File.separator + "tc-config.xml";
     private DataSourceConfig dsConfig;
+
+    @XmlElement(name = "MqttBroker", required = true)
+    public MqttBrokerConfig getMqttBrokerConfig() {
+        return mqttBrokerConfig;
+    }
+
+    public void setMqttBrokerConfig(MqttBrokerConfig mqttBrokerConfig) {
+        this.mqttBrokerConfig = mqttBrokerConfig;
+    }
+
+    private MqttBrokerConfig mqttBrokerConfig;
     private static TCConfig config = new TCConfig();
 
     private TCConfig() {
@@ -44,7 +55,7 @@ public class TCConfig {
     public static TCConfig getInstance() {
         if (config == null) {
             throw new RuntimeException("Temperature Controller Configuration is not " +
-                    "initialized properly");
+                                       "initialized properly");
         }
         return config;
     }
@@ -71,6 +82,32 @@ public class TCConfig {
 
         public void setJndiLookupName(String jndiLookupName) {
             this.jndiLookupName = jndiLookupName;
+        }
+    }
+
+    @XmlRootElement(name = "MqttBroker")
+    public static class MqttBrokerConfig {
+        private String host;
+        private String port;
+
+        public MqttBrokerConfig() {}
+
+        @XmlElement(name = "host", required = true)
+        public String getHost() {
+            return host;
+        }
+
+        public void setHost(String host) {
+            this.host = host;
+        }
+
+        @XmlElement(name = "port", required = true)
+        public String getPort() {
+            return port;
+        }
+
+        public void setPort(String port) {
+            this.port = port;
         }
     }
 

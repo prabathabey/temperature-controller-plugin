@@ -1,5 +1,9 @@
 <TemperatureControllerConfig>
     <DataSource>
-	<JNDILookupName>jdbc/TC_DS</JNDILookupName>
+	    <JNDILookupName>jdbc/TC_DS</JNDILookupName>
     </DataSource>
+    <MqttBroker>
+        <host>192.168.0.19</host>
+        <port>1883</port>
+    </MqttBroker>
 </TemperatureControllerConfig>
