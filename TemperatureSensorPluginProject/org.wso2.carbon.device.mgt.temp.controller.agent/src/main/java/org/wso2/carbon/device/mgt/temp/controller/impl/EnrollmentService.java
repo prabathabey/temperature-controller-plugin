@@ -20,6 +20,7 @@ package org.wso2.carbon.device.mgt.temp.controller.impl;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
+import org.wso2.carbon.device.mgt.common.Device;
 import org.wso2.carbon.device.mgt.common.DeviceIdentifier;
 import org.wso2.carbon.device.mgt.common.DeviceManagementConstants;
 import org.wso2.carbon.device.mgt.common.DeviceManagementException;
@@ -111,6 +112,27 @@ public class EnrollmentService {
             }
         } catch (DeviceManagementException e) {
             msg = "Error occurred while modifying enrollment of the device";
+            log.error(msg, e);
+            throw new TCException(msg, e);
+        }
+    }
+
+    @PUT
+    @Path("{id}")
+    public Response claimDevice(@PathParam("id") String id,
+                                     org.wso2.carbon.device.mgt.common.Device device)
+            throws TCException {
+        try {
+            device.setType(DeviceManagementConstants.MobileDeviceTypes.MOBILE_DEVICE_TYPE_ANDROID);
+            device.setStatus(Device.Status.ACTIVE);
+            boolean result = AgentUtil.getDeviceManagementService().modifyEnrollment(device);
+            if (result) {
+                return Response.ok("Device has been claimed successfully").build();
+            } else {
+                return Response.status(Response.Status.NOT_MODIFIED).entity("Device not found").build();
+            }
+        } catch (DeviceManagementException e) {
+            String msg = "Error occurred while claiming the device";
             log.error(msg, e);
             throw new TCException(msg, e);
         }
